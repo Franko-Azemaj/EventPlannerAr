@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-EventPlaner.Web-6FC563B7-552F-41AE-954C-BBE93599ACDF</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventPlanner.Api\EventPlanner.Api.csproj" />
+    <ProjectReference Include="..\EventPlanner.EFCore\EventPlanner.EFCore.csproj" />
+    <ProjectReference Include="..\EventPlanner.Services\EventPlanner.Services.csproj" />
+  </ItemGroup>
+
+</Project>
